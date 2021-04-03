@@ -1,0 +1,231 @@
+*{
+    font-family: "PingFang TC";
+    /* debug */
+    /* border: 1px black solid; */
+}
+
+body{
+    background: #EDFBFF 0% 0% no-repeat padding-box;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+}
+.navbar-top{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 8px;
+    background: transparent linear-gradient(90deg, #00829B 0%, #009583 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.navbar{
+    box-shadow: 0px 2px 6px #0000000A;
+}
+
+.box{
+    width: 8px;
+    height: 24px;
+    margin-top: 10px;
+    background: #00829B 0% 0% no-repeat padding-box;
+}
+.post-title{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+    color: #00829B;
+    
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7.5px 0 7.5px 13.0px;
+    border-color: transparent transparent transparent #F55A08;
+}
+.card-body .title{
+    color: #F55A08;
+    font-size: 18px;
+    /* margin-left: 17px; */
+}
+.card{
+    border: none;
+    border-bottom: 1px dashed #D5D5D5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card .pic{
+    width: 810px;
+}
+.card-body{
+    padding: 0;
+}
+.card p{
+    font-size: 18px;
+    /* padding: 0 0 0 30px; */
+    /* margin-left: 30px; */
+    width: 293px;
+    color:#505050;
+    
+}
+.card .editpen{
+    width: 14px;
+    height: 21px;
+}
+.card .title-box{
+    width: 37px;
+    height: 19px;
+    background: #F55A08;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.card .delete{
+    width: 23px;
+    height: 22px;
+}
+.card .edit{
+    width: 23px;
+    height: 22px;
+}
+.card .point-zone{
+    /* width: 293px; */
+    font-size: 18px;
+    /* margin-right: 22px; */
+    margin-right: -40px;
+}
+.container{
+    max-width: 1200px;
+    margin-top: 6px;
+    margin-bottom: 28px;
+    box-shadow: 0px 3px 6px #00000029;
+    
+}
+.navbar .container{
+    box-shadow: none;
+}
+.card-end{
+    border: none;
+}
+
+footer{
+    background: transparent linear-gradient(90deg, #00829B 0%, #009583 100%) 0% 0% no-repeat padding-box;
+    padding-top: 22px;
+    padding-bottom: 13px;
+    height: 87px;
+}
+.p-footer{
+    font-size: 20px;
+    color: #FFFFFD;
+}
+footer p{
+    line-height: 20px;
+}
+.section-indent{
+    padding-top: 85px;
+}
+
+/* go top button */
+.go-top {
+	position: fixed;
+	bottom: 3em;
+	right: 8%;
+	text-decoration: none;
+	background-color: #00829B50;
+	font-size: 12px;
+	padding: 15px;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+	display: none;
+}
+
+.navbar-nav{
+    height: 30px;
+
+}
+.fubon-logo{
+    width: 204px;
+    height: 44px;
+}
+.home-logo{
+    width: 25px;
+    height: 25px;
+}
+.go-home-text{
+    color: #505050;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 6px;
+    text-decoration: none;
+}
+.navbar-nav a{
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color:#505050;
+}
+.content{
+    margin-top: 24px;
+}
+.step-title{
+    margin-left: 14px;
+}
+@media only screen and (max-width:768px){
+    header .container{
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .navbar{
+        box-shadow: 0px 3px 6px #0000005D;
+        height: 70px;
+        padding-top: 25px;
+    }
+    .fubon-logo{
+        width: 180px;
+    }
+    .home-logo{
+        width: 32px;
+        height: 32px;
+    }
+    .go-home-text{
+        text-decoration: none;
+        display: none;
+    }
+    .content{
+        margin-top: 10px;
+        margin-bottom: 0;
+        /* padding-left: 20px;
+        padding-right: 55px; */
+    }
+    .pic{
+        padding-left: 35px;
+    }
+    .card-body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post-title{
+        font-size: 24px;
+    }
+    
+    .section-indent{
+        box-shadow: none;
+        padding-top: 70px;
+    }
+    /* .text-zone{
+        text-align: center;
+    } */
+    footer{
+        display: none;
+    }
+}
